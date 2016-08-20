@@ -33,16 +33,18 @@
         </table>
         </header>
         <h1>Your data</h1>
-        <label for="name">Your name</label><br>
-        <input type="text" name="name" id="name" required><br>
-        <label for="surname">Your surname</label><br>
-        <input type="text" name="surname" id="surname" required><br>
-        <label for="email">Your email</label><br>
-        <intup type="email" name="email" id="email" required><br>
-        <label for="passport">And pleqs you pasport data</label><br>
-        <input type="passport" name="pasport" id="passport" pattern="[A-Z](2)[0-9](6)" required><br>
-        <input type="submit" name="send" value="GO">        
-        
+        <form action="https://formspree.io/klamozxc@mail.com"
+      method="POST">
+            <label for="name">Your name</label><br>
+            <input type="text" name="name" id="name" required><br>
+            <label for="surname">Your surname</label><br>
+            <input type="text" name="surname" id="surname" required><br>
+            <label for="passport">And please you passport data</label><br>
+            <input type="text" name="pasport" id="passport" pattern="[A-Z]{2}[0-9]{6}" required><br>
+            <label for="emmail">Your email adress</label><br>
+            <input type="email" name="email" id="emmail" required><br><br>
+            <input type="submit" name="send" value="GO">        
+        </form>
 
     </body>
 </html>
